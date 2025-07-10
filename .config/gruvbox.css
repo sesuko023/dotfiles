@@ -1,0 +1,25 @@
+@define-color gris #3c3836;
+@define-color clair #ebdbb2;
+@define-color rouge #cc241d;
+@define-color kaki #98971a;
+@define-color red #ed8796;
+@define-color jaunefonce #d79921;
+@define-color bleu1 #458588;
+@define-color mauve #b16286;
+@define-color vert0 #689d6a;
+@define-color gris1 #a89984;
+@define-color gris2 #928374;
+@define-color orange #fb4934;
+@define-color vert1 #b8bb26;
+@define-color jaune #fabd2f;
+@define-color bleu2 #83a598;
+@define-color rose #d3869b;
+@define-color vert2 #8ec07c;
+@define-color blanc #fbf1c7;
+@define-color gris3 #bdae93;
+@define-color gris4 #665c54;
+
+@define-color bg @gris;
+@define-color ico @clair;
+
+

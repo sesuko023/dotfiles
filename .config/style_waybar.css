@@ -1,0 +1,215 @@
+@import "gruvbox.css";
+
+* {
+    font-family: 'RobotoMono Nerd Font', 'FiraCodeNerdFont';
+/*   font-weight: bold; */
+    font-size: 13px;
+    color: @blanc;
+/*    background-color: transparent; */
+/*    background-color: @gris; */
+ /*   all: unset; */
+
+}
+
+window#waybar {
+    background-color: transparent;
+    /* transition-property: @background-color; */
+    border-radius: 5px;
+    color: @rose;
+}
+
+button {
+    box-shadow: inset 0 -3px transparent;
+    border: none;
+    border-radius: 0;
+}
+
+#workspaces {
+  background-color: @gris;
+  padding: 0 5px;
+  border-radius: 7px;
+ color : @rose; 
+ font-size: 13px;
+ padding-left: 10px;
+ padding-right: 10px;
+/* margin-right: 0px; */
+}
+
+
+#workspaces button {
+ background-color: @gris;
+ padding:  5px 3px;
+  color : @gris3; 
+  font-size: 13px;
+}
+
+#workspaces button:hover {
+    background: rgba(0,0,0,0.2);
+    color: @rose;
+}
+
+#workspaces button.focused {
+}
+
+#workspaces button.urgent {
+    background-color: transparent;
+}
+
+#workspaces button.active {
+    color : @gris3; 
+    background-color: @mauve;
+    /*    border-bottom: 3px solid @gris1; */
+}
+
+#pulseaudio {
+    background-color: @gris;
+}
+
+
+
+#mode {
+  background-color: #64727d;
+  box-shadow: inset 0 -3px #ffffff;
+}
+
+#clock{
+    background-color: transparent;
+    border-radius: 7px;
+    font-family: "FiraCode Nerd Font Light";
+/*    font-family: "Metropolis Medium"; */
+    font-size: 13px;
+    font-weight: bold;
+    color : @blanc; 
+/*   font-weight: bold; */
+    padding-left: 8px;
+    padding-top: 4px;
+}
+
+#disk{
+/*    background-color: @bleu1; */
+    border-radius: 7px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#temperature{
+   padding-left: 0px;
+    padding-top: 0px;
+}
+
+#window{
+   color : @rose; 
+   padding-left: 0px;
+   padding-top: 0px;
+}
+
+#cpu{
+   padding-left: 5px;
+    padding-right: 0px;
+}
+
+#tray{
+   color : @gris3;
+  /* tooltip : true; */
+   padding-left: 0px;
+    padding-right: 5px;
+}
+
+#mpd{
+  padding-left: 5px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+
+}
+
+#memory{
+   padding-left: 5px;
+}
+
+#window{
+    color : @gris3;
+}
+
+#custom-icon.ico2{
+   background-color: @jaune;
+   border-radius: 0px;
+   color : @gris;
+}
+
+#custom-icon.ico3{
+   background-color: @vert1;
+   border-radius: 0px;
+   color : @gris;
+}
+
+#custom-icon.ico1{
+   background-color: @bleu1;
+   border-radius: 0px;
+   color : @gris;
+}
+
+tooltip {
+  color: @bg;
+  background-color: @gris3;
+  border: 0px;
+  text-shadow: none;
+}
+
+#leftm {
+  background-color: @gris;
+  border: 0px solid @blanc;
+  border-radius: 7px;
+  padding: 0px 5px;
+  padding-left: 10px;
+  margin-right: 0px;
+}
+
+#leftm2 {
+  background-color: @gris;
+  border: 0px solid @blanc;
+  border-radius: 7px;
+  padding: 0px 5px;
+  padding-left: 10px;
+  padding-right:9px;
+  margin-right: 0px;
+}
+
+#rightm2 {
+  background-color: @gris;
+  border: 0px solid @blanc;
+  border-radius: 7px;
+  padding: 0px 5px;
+  padding-left: 10px; 
+  margin-right: 0px;
+}
+
+
+
+.modules-right {
+  background-color: transparent;
+  color : @gris3; 
+  border: 0px solid @gris3;
+  border-radius: 5px 5px;
+  padding: 0 0px;
+  margin-right: 0px;
+}
+
+.modules-left {
+  background-color: transparent;
+  color : @gris3; 
+  border: 0px solid @gris3;
+  border-radius: 5px 5px;
+  padding: 0 0px;
+  margin-left: 0px;
+}
+
+.modules-center {
+  background-color: transparent;
+  color: @ico;
+  border: 0px solid @gris3;
+  border-radius: 5px;
+  padding: 0px 0px;
+  margin-right: 20px;
+}
+
+
