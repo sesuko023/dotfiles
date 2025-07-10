@@ -6,7 +6,7 @@
 
 rofi menu :
 
-![rofi preview menu](https://github.com/sesuko023/dotfiles/blob/main/Images/rofi_menu_preview.png)
+<img src="https://github.com/sesuko023/dotfiles/blob/main/Images/rofi_menu_preview.png" alt="rofi menu" width="400">
 
 Waybar :
 ![alt text](https://github.com/sesuko023/dotfiles/blob/main/Images/waybar.jpg "Preview waybar")
