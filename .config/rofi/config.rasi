@@ -59,7 +59,7 @@ imageview {
     spacing:                     0px;
     border-radius:               0px;
     background-color:            transparent;
-    background-image:            url("~/.config/rofi/images/tux4.png");
+    background-image:            url("~/Images/tux4.png");
 }
 
 inputbar {
