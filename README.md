@@ -1,0 +1,2 @@
+My hyrpland theme.
+Waybar
