@@ -1,0 +1,161 @@
+{
+    "margin-top" : 5,
+    "margin-right" : 5,
+    "margin-left" : 10,
+    "height": 30, // Waybar height (to be removed for auto height)
+    "width": 1870, // Waybar width
+    "spacing": 8, // Gaps between modules (4px)
+
+   "modules-left": ["hyprland/workspaces", "group/leftm2"],
+   "modules-center": ["clock"],
+   "modules-right": ["group/rightm2", "group/leftm"],
+
+    "hyprland/workspaces": {
+        "format": " {name} ",
+        "persistent-workspaces": {
+                "*": 6, // 5 workspaces by default on every monitor
+                "HDMI-A-1": 6 // but only three on HDMI-A-1
+        }
+    },
+
+   "disk#1": {
+	"interval": 30,
+	"path": "/",
+	"unit": "GiB",
+	"format": "{path} {specific_free:0.0f}GiB",
+   },
+
+   "disk#2": {
+	"interval": 30,
+	"path": "/home",
+	"unit": "GiB",
+	"format": "{path} {specific_free:0.0f}GiB",
+   },
+
+   "clock": {
+        "timezone": "Europe/Paris",
+	"locale": "fr_FR.utf-8",
+        "format": "{:L%A %d %B %Y (%R)}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+
+   "cpu": {
+        "format": " CPU {usage}% ",
+        "tooltip": false
+   },
+
+   "memory": {
+        "format": "RAM {}% "
+   },
+
+   "temperature": {
+        "critical-threshold": 80,
+        "format": "TEMP {temperatureC}°C",
+        "format-icons": ["", "", ""]
+    },
+
+   "tray": {
+	"icon-size": 16,
+	"spacing": 5,
+	"icons": {
+      		"ownCloud": "  "
+    	}
+   },
+
+   "custom/icon#ico1":{
+        "format": "   ",
+    "on-click": "rofi -show drun"
+   },
+
+   "custom/icon#ico2":{
+        "format": "   ", //󰻠    
+         "on-click": "kitty htop",
+         "on-click-right": "nm-applet —indicator"
+  },
+
+   "custom/icon#ico3":{
+        "format": "   ", //󰻠    
+	"on-click": "pavucontrol"
+   },
+
+   "custom/icon#ico4":{
+        "format": " 󰅂",
+	"on-click": "pavucontrol"
+   },
+
+
+   "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": " {volume}% ",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "kitty pulsemixer"
+    },
+
+    "hyprland/window": {
+      "format": " {} ",
+      // "icon": true,
+      "max-length": 40,
+      // "min-length": 40,
+      "rewrite": {
+	"(.*) — Mozilla Firefox": "Test",
+	"(.*) - zsh": "> [$1]"
+      },
+      //  "separate-outputs": true,
+    },
+
+   "group/leftm": {
+   	"orientation": "horizontal",
+	"modules": [
+       "custom/icon#ico2", "cpu", "temperature", "memory"
+       ]
+   },
+
+   "group/etend": {
+   	"orientation": "horizontal",
+	"drawer": {
+          "transition-duration": 500,
+          "transition-left-to-right": true,
+      },
+	"modules": [
+       "custom/icon#ico4", "pulseaudio", "tray", "hyprland/window" 
+       ]
+   },
+
+
+   "group/leftm2": {
+   	"orientation": "horizontal",
+	"modules": [
+        "custom/icon#ico3", "group/etend" 
+       ]
+   },
+
+   "group/rightm": {
+   "orientation": "horizontal",
+   "modules": [
+       "hyprland/workspaces", "pulseaudio", "hyprland/window", "tray"
+       ]
+   },
+
+   "group/rightm2": {
+   	"orientation": "horizontal",
+   	"modules": [
+     	"custom/icon#ico1", "disk#1", "disk#2"
+       ]
+   },
+},
+
+
