@@ -1,3 +1,5 @@
+[Engish version](https://github.com/sesuko023/dotfiles/blob/main/README.md)
+
 # Mon theme hyprland
 
 Voici mon thème basé sur gruvbox.
