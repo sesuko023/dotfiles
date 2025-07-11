@@ -1,3 +1,5 @@
+[Engish version](https://github.com/sesuko023/dotfiles/blob/main/README.md)
+
 # Mon theme hyprland
 
 Here is my theme based on Gruvbox.
@@ -15,7 +17,7 @@ I was inspired by different sources to build this theme.
 
 Neofetch allows you to display different information systems information in text mode as well as images, the OS logo, in ASCII or other form.  
 I use Zshrc as Shell.  
-To display an image, add`neofetch --kitty "$HOME/Images/tux1.png" `in the file`.zshrc file `.
+Pour afficher une image, ajouter `neofetch --kitty "$HOME/Images/tux1.png" `in the file`.zshrc file `.
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/hyprland_terminal.png" alt="Bureau">
 
