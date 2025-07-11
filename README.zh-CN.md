@@ -1,4 +1,10 @@
-[Engish version](https://github.com/sesuko023/dotfiles/blob/main/README.md)
+<img
+  src="https://flagcdn.com/20x15/gb.png"
+  srcset="https://flagcdn.com/40x30/gb.png 2x,
+    https://flagcdn.com/60x45/gb.png 3x"
+  width="20"
+  height="15"
+  alt="Royaume-Uni">[结尾版](https://github.com/sesuko023/dotfiles/blob/main/README.md)
 
 # Mon主题Hyprland
 
