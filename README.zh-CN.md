@@ -1,3 +1,5 @@
+[Engish version](https://github.com/sesuko023/dotfiles/blob/main/README.md)
+
 # Mon主题Hyprland
 
 这是我基于Gruvbox的主题。
@@ -22,7 +24,7 @@ Neofetch允许您以文本模式以及图像，OS徽标，ASCII或其他形式�
 ## 文件经理（游侠）
 
 Ranger是控制台模式的文件管理器。  
-Il permet de prévisualiser les images, à l'aide de kitty. Pour cela, il faut ajouter les deux lignes suivantes dans le fichier  `~/.config/ranger/rc.conf`:  
+它允许您使用小猫预览图像。为此，将以下两行添加到文件中`~/.config/ranger/rc.conf`:  
 `set preview_images true`  
 `set preview_images_method kitty`
 
