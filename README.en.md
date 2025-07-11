@@ -1,4 +1,10 @@
-[Engish version](https://github.com/sesuko023/dotfiles/blob/main/README.md)
+<img
+  src="https://flagcdn.com/20x15/gb.png"
+  srcset="https://flagcdn.com/40x30/gb.png 2x,
+    https://flagcdn.com/60x45/gb.png 3x"
+  width="20"
+  height="15"
+  alt="Royaume-Uni">[Engish version](https://github.com/sesuko023/dotfiles/blob/main/README.md)
 
 # Mon theme hyprland
 
@@ -17,14 +23,14 @@ I was inspired by different sources to build this theme.
 
 Neofetch allows you to display different information systems information in text mode as well as images, the OS logo, in ASCII or other form.  
 I use Zshrc as Shell.  
-Pour afficher une image, ajouter `neofetch --kitty "$HOME/Images/tux1.png" `in the file`.zshrc file `.
+To display an image, add`neofetch --kitty "$HOME/Images/tux1.png" `in the file`.zshrc file `.
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/hyprland_terminal.png" alt="Bureau">
 
 ## File manager (ranger)
 
 Ranger is a file manager in console mode.  
-It allows you to preview the images, using Kitty. To do this, add the following two lines to the file`~/.config/ranger/rc.conf`:  
+Il permet de prévisualiser les images, à l'aide de kitty. Pour cela, il faut ajouter les deux lignes suivantes dans le fichier  `~/.config/ranger/rc.conf`:  
 `set preview_images true`  
 `set preview_images_method kitty`
 
