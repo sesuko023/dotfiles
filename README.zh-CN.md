@@ -38,9 +38,10 @@ Ranger是控制台模式的文件管理器。
 
 ## 音乐播放器
 
-我使用ncmpcpp一段时间了，然后继续前进[rmpc](https://mierak.github.io/rmpc/)我发现更多的用户 - 友好且易于使用。
+我使用ncmpcpp一段时间了，然后继续前进[rmpc](https://mierak.github.io/rmpc/)我发现更多的用户 - 友好且易于使用。  
+Le fichier de configuration utilisé n'est pas celui par défaut, j'ai ajouté la section concernant celui du thème Nord. 
 
-<img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/rmpc_preview.png" alt="rmpc">
+<img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/rmpc_player_preview.png" alt="rmpc">
 
 | 应用启动器                                                                                                                                    | 电源菜单                                                                                                                                            |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
