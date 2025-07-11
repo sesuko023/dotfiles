@@ -23,7 +23,7 @@
 
 Neofetch允许您以文本模式以及图像，OS徽标，ASCII或其他形式显示不同的信息系统信息。  
 我将ZSHRC用作外壳。  
-Pour afficher une image, ajouter `neofetch --kitty "$HOME/Images/tux1.png" `在文件中`.zshrc file `.
+要显示图像，请添加`neofetch --kitty "$HOME/Images/tux1.png" `在文件中`.zshrc file `.
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/hyprland_terminal.png" alt="Bureau">
 
@@ -38,8 +38,9 @@ Ranger是控制台模式的文件管理器。
 
 ## 音乐播放器
 
-我使用ncmpcpp一段时间了，然后继续前进[rmpc](https://mierak.github.io/rmpc/)我发现更多的用户 - 友好且易于使用。  
+在继续前进之前[rmpc](https://mierak.github.io/rmpc/)我发现更多的用户 - 友好且易于使用。  
 使用的配置文件不是默认情况下，我添加了有关北方主题的部分。
+必须事先安装配置[MPD](https://wiki.archlinux.org/title/Music_Player_Daemon_(Fran%C3%A7ais)).
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/rmpc_player_preview.png" alt="rmpc">
 
