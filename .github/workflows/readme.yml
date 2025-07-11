@@ -23,10 +23,14 @@ jobs:
         uses: dephraiim/translate-readme@main
         with:
           LANG: zh-TW
-      - name: Adding README - English
+      - name: Adding README - Hindi
         uses: dephraiim/translate-readme@main
         with:
-          LANG: en
+          LANG: hi
+      - name: Adding README - Arabic
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: ar
       - name: Adding README - French
         uses: dephraiim/translate-readme@main
         with:
