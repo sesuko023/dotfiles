@@ -10,11 +10,21 @@ I used different sources found on the net that I modified according to my tastes
 + App launcher : rofi
 + power menu : rofi
 
-## Workspace :
+## Workspace
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/hyprland_terminal.png" alt="Bureau">
 
-## Music player :
+## File manager (ranger)
+
+Ranger is a console file manager.
+To enable preview image, using kitty, you can add these two lines :
+``` set preview_images true ```
+``` set preview_images_method kitty ```
+in ``` ~/.config/ranger/rc.conf ``` file.
+
+<img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/ranger_preview.png" alt="ranger">
+
+## Music player
 
 I used ncmpcpp for a while, before switching to rmpc which I find more pleasant to use.
 
