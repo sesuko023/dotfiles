@@ -30,7 +30,7 @@ To display an image, add`neofetch --kitty "$HOME/Images/tux1.png" `in the file`.
 ## File manager (ranger)
 
 Ranger is a file manager in console mode.  
-Il permet de prévisualiser les images, à l'aide de kitty. Pour cela, il faut ajouter les deux lignes suivantes dans le fichier  `~/.config/ranger/rc.conf`:  
+It allows you to preview the images, using Kitty. To do this, add the following two lines to the file`~/.config/ranger/rc.conf`:  
 `set preview_images true`  
 `set preview_images_method kitty`
 
@@ -38,9 +38,10 @@ Il permet de prévisualiser les images, à l'aide de kitty. Pour cela, il faut a
 
 ## Music player
 
-I used NCMPCPP for a while, before moving on to[RMPC](https://mierak.github.io/rmpc/)that I find more user -friendly and easier to use.
+I used NCMPCPP for a while, before moving on to[RMPC](https://mierak.github.io/rmpc/)that I find more user -friendly and easier to use.  
+The configuration file used is not that by default, I added the section concerning that of the northern theme.
 
-<img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/rmpc_preview.png" alt="rmpc">
+<img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/rmpc_player_preview.png" alt="rmpc">
 
 | App launcher                                                                                                                             | Power menu                                                                                                                                      |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
