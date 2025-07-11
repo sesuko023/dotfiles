@@ -21,7 +21,7 @@
 
 ## 工作区
 
-Neofetch允许您以文本模式以及图像，OS徽标，ASCII或其他形式显示不同的信息系统信息。  
+Neofetch permet d'afficher différentes informations systèmes en mode texte ainsi que des images, le logo de l'OS, sous forme ASCII ou autre.  
 我将ZSHRC用作外壳。  
 要显示图像，请添加`neofetch --kitty "$HOME/Images/tux1.png" `在文件中`.zshrc file `.
 
