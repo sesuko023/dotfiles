@@ -1,37 +1,36 @@
-# My hyprland theme
+# Mon theme hyprland
 
-This is my gruvbox theme.
-I used different sources found on the net that I modified according to my tastes.
+Voici mon thème basé sur gruvbox.
+Je me suis inspiré de différentes sources pour construire ce thème.
 
 + terminal : [kitty](#workspace)
 + bar : [waybar](#waybar)
 + file manager : [ranger](#file-manager-ranger)
-+ text editor : neovim
++ éditeur de texte : neovim
 + music player : [rmpc](#music-player)
 + App launcher : rofi
 + power menu : rofi
 
 ## Workspace
 
-Neofetch displays operating system information next to an image, the OS logo, or any ASCII file of your choice.  
-My shell is  zshrc.  
-To display image, add ``` neofetch --kitty "$HOME/Images/tux1.png"  ``` in  ``` .zshrc file  ```.
+Neofetch permet d'afficher différentes informations systèmes en mode texte ainsi que des images, le logo de l'OS, sous forme ASCII ou autre.  
+J'utilise zshrc comme shell.  
+Pour afficher une image, ajouter ``` neofetch --kitty "$HOME/Images/tux1.png"  ``` dans le fichier  ``` .zshrc file  ```.
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/hyprland_terminal.png" alt="Bureau">
 
 ## File manager (ranger)
 
-Ranger is a console file manager.
-To enable preview image, using kitty, you can add these two lines :
-``` set preview_images true ```
-``` set preview_images_method kitty ```
-in ``` ~/.config/ranger/rc.conf ``` file.
+Ranger est un gestionnaire de fichiers en mode console.  
+Il permet de prévisualiser les images, à l'aide de kitty. Pour cela, il faut ajouter les deux lignes suivantes dans le fichier  ``` ~/.config/ranger/rc.conf ```  :  
+``` set preview_images true ```  
+``` set preview_images_method kitty ```  
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/ranger_preview.png" alt="ranger">
 
 ## Music player
 
-I used ncmpcpp for a while, before switching to [rmpc](https://mierak.github.io/rmpc/) which I find more pleasant to use.
+J'ai utilisé pendant un certain temps ncmpcpp, avant de passer à [rmpc](https://mierak.github.io/rmpc/) que je trouve plus convivial et plus simple d'utilisation.
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/rmpc_preview.png" alt="rmpc">
 
