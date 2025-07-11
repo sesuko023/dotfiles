@@ -38,8 +38,9 @@ It allows you to preview the images, using Kitty. To do this, add the following 
 
 ## Music player
 
-I used NCMPCPP for a while, before moving on to[RMPC](https://mierak.github.io/rmpc/)that I find more user -friendly and easier to use.  
+I used NCMPCPP for a certain time as MPD customer, before moving on to[rmpc](https://mierak.github.io/rmpc/)that I find more user -friendly and easier to use.  
 The configuration file used is not that by default, I added the section concerning that of the northern theme.
+It is necessary, beforehand, to install configure[MPD](https://wiki.archlinux.org/title/Music_Player_Daemon_(Fran%C3%A7ais)).
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/rmpc_player_preview.png" alt="rmpc">
 
