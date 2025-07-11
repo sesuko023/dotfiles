@@ -3,11 +3,11 @@
 This is my gruvbox theme.
 I used different sources found on the net that I modified according to my tastes.
 
--   terminal :[kitty](#workspace)
+-   terminal : [kitty](#workspace)
 -   bar :[waybar](#waybar)
--   file manager : [ranger](#file-manager-ranger)
+-   file manager :[ranger](#file-manager-ranger)
 -   text editor : neovim
--   music player :[RMPC](#music-player)
+-   music player : [rmpc](#music-player)
 -   App Launcher: Rofi
 -   Power Menu: Rofi
 
@@ -22,13 +22,14 @@ To display image, add`neofetch --kitty "$HOME/Images/tux1.png" `in`.zshrc file `
 ## File manager (ranger)
 
 Ranger is a console file manager.
-To enable preview image, using kitty, you can add these two lines :`set preview_images true``set preview_images_method kitty`in`~/.config/ranger/rc.conf`file.
+To enable preview image, using kitty, you can add these two lines :
+`set preview_images true``set preview_images_method kitty`in`~/.config/ranger/rc.conf`file.
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/ranger_preview.png" alt="ranger">
 
 ## Music player
 
-I used ncmpcpp for a while, before switching to[RMPC](https://mierak.github.io/rmpc/)which I find more pleasant to use.
+I used ncmpcpp for a while, before switching to [rmpc](https://mierak.github.io/rmpc/)which I find more pleasant to use.
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/rmpc_preview.png" alt="rmpc">
 
