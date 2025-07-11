@@ -5,7 +5,7 @@
 
 -   终端 ：[猫咪](#workspace)
 -   酒吧 ：[Waybar](#waybar)
--   file manager : [游侠](#file-manager-ranger)
+-   文件管理器：[游侠](#file-manager-ranger)
 -   文本编辑：Neovim
 -   音乐播放器：[rmpc](#music-player)
 -   应用启动器：ROFI
@@ -21,9 +21,8 @@ NeoFetch显示了您选择的图像，OS徽标或任何ASCII文件旁边的操�
 
 ## 文件经理（游侠）
 
-Ranger is a console file manager.
-To enable preview image, using kitty, you can add these two lines :
-`set preview_images true``set preview_images_method kitty`在`~/.config/ranger/rc.conf`文件。
+Ranger是控制台文件管理器。
+要启用预览图像，使用小猫可以添加以下两行：`set preview_images true``set preview_images_method kitty`在`~/.config/ranger/rc.conf`文件。
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/ranger_preview.png" alt="ranger">
 
