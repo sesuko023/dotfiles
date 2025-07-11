@@ -39,8 +39,9 @@ Il permet de prévisualiser les images, à l'aide de kitty. Pour cela, il faut a
 
 ## Music player
 
-J'ai utilisé pendant un certain temps ncmpcpp, avant de passer à [rmpc](https://mierak.github.io/rmpc/) que je trouve plus convivial et plus simple d'utilisation.  
-Le fichier de configuration utilisé n'est pas celui par défaut, j'ai ajouté la section concernant celui du thème Nord. 
+J'ai utilisé pendant un certain temps ncmpcpp comme client de MPD, avant de passer à [rmpc](https://mierak.github.io/rmpc/) que je trouve plus convivial et plus simple d'utilisation.  
+Le fichier de configuration utilisé n'est pas celui par défaut, j'ai ajouté la section concernant celui du thème Nord.
+Il est nécessaire, au préalable, d'installer configurer [MPD](https://wiki.archlinux.org/title/Music_Player_Daemon_(Fran%C3%A7ais)).  
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/rmpc_player_preview.png" alt="rmpc">
 
