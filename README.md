@@ -3,11 +3,11 @@
 This is my gruvbox theme.
 I used different sources found on the net that I modified according to my tastes.
 
-+ terminal : kitty
-+ bar : waybar
-+ [file manager](#file-manager-ranger)
++ terminal : [kitty](#workspace)
++ bar : [waybar](#waybar)
++ file manager : [ranger](#file-manager-ranger)
 + text editor : neovim
-+ music player : [rmpc](https://mierak.github.io/rmpc/)
++ music player : [rmpc](#music-player)
 + App launcher : rofi
 + power menu : rofi
 
@@ -27,7 +27,7 @@ in ``` ~/.config/ranger/rc.conf ``` file.
 
 ## Music player
 
-I used ncmpcpp for a while, before switching to rmpc which I find more pleasant to use.
+I used ncmpcpp for a while, before switching to [rmpc](https://mierak.github.io/rmpc/) which I find more pleasant to use.
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/rmpc_preview.png" alt="rmpc">
 
@@ -36,6 +36,6 @@ I used ncmpcpp for a while, before switching to rmpc which I find more pleasant 
 | <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/rofi_app_preview.png" alt="rofi menu" width="500"> | <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/rofi_power_menu_preview.png" alt="rofi menu" width="500"> |
 
 
-Waybar :
+## Waybar
 
 ![alt text](https://github.com/sesuko023/dotfiles/blob/main/Images/waybar.jpg "Preview waybar")
