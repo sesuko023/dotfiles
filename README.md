@@ -13,6 +13,10 @@ I used different sources found on the net that I modified according to my tastes
 
 ## Workspace
 
+Neofetch displays operating system information next to an image, the OS logo, or any ASCII file of your choice.  
+My shell is  zshrc.  
+To display image, add ``` neofetch --kitty '/home/emmanuel/Images/tux1.png'  ``` in  ``` .zshrc file  ```.
+
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/hyprland_terminal.png" alt="Bureau">
 
 ## File manager (ranger)
