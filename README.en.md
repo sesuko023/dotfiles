@@ -21,7 +21,7 @@ I was inspired by different sources to build this theme.
 
 ## Workspace
 
-Neofetch allows you to display different information systems information in text mode as well as images, the OS logo, in ASCII or other form.  
+Neofetch permet d'afficher différentes informations systèmes en mode texte ainsi que des images, le logo de l'OS, sous forme ASCII ou autre.  
 I use Zshrc as Shell.  
 To display an image, add`neofetch --kitty "$HOME/Images/tux1.png" `in the file`.zshrc file `.
 
@@ -30,7 +30,7 @@ To display an image, add`neofetch --kitty "$HOME/Images/tux1.png" `in the file`.
 ## File manager (ranger)
 
 Ranger is a file manager in console mode.  
-Il permet de prévisualiser les images, à l'aide de kitty. Pour cela, il faut ajouter les deux lignes suivantes dans le fichier  `~/.config/ranger/rc.conf`:  
+It allows you to preview the images, using Kitty. To do this, add the following two lines to the file`~/.config/ranger/rc.conf`:  
 `set preview_images true`  
 `set preview_images_method kitty`
 
