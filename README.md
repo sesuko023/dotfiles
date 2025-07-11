@@ -5,7 +5,7 @@ I used different sources found on the net that I modified according to my tastes
 
 + terminal : kitty
 + bar : waybar
-+ file manager [Link Text](#file-manager-(ranger))
++ [file manager](#file-manager-ranger)
 + text editor : neovim
 + music player : [rmpc](https://mierak.github.io/rmpc/)
 + App launcher : rofi
