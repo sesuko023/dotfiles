@@ -6,12 +6,19 @@ I used different sources found on the net that I modified according to my tastes
 + terminal : kitty
 + bar : waybar
 + text editor : neovim
++ music player : [rmpc](https://mierak.github.io/rmpc/)
 + App launcher : rofi
 + power menu : rofi
 
 ## Workspace :
 
 <img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/hyprland_terminal.png" alt="Bureau">
+
+## Music player :
+
+I used ncmpcpp for a while, before switching to rmpc which I find more pleasant to use.
+
+<img src="https://raw.githubusercontent.com/sesuko023/dotfiles/refs/heads/main/Images/rmpc_preview.png" alt="rmpc">
 
 | App launcher | Power menu |
 | ---- | --- |
