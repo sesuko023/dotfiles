@@ -4,7 +4,7 @@
     https://flagcdn.com/60x45/gb.png 3x"
   width="20"
   height="15"
-  alt="Royaume-Uni">[Engish version](https://github.com/sesuko023/dotfiles/blob/main/README.md)
+  alt="Royaume-Uni">[Engish version](https://github.com/sesuko023/dotfiles/blob/main/README.en.md)
 
 # Mon theme hyprland
 
