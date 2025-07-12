@@ -4,7 +4,7 @@
     https://flagcdn.com/60x45/gb.png 3x"
   width="20"
   height="15"
-  alt="Royaume-Uni">[结尾版](https://github.com/sesuko023/dotfiles/blob/main/README.md)
+  alt="Royaume-Uni">[结尾版](https://github.com/sesuko023/dotfiles/blob/main/README.en.md)
 
 # Mon主题Hyprland
 
@@ -21,7 +21,7 @@
 
 ## 工作区
 
-Neofetch permet d'afficher différentes informations systèmes en mode texte ainsi que des images, le logo de l'OS, sous forme ASCII ou autre.  
+Neofetch允许您以文本模式以及图像，OS徽标，ASCII或其他形式显示不同的信息系统信息。  
 我将ZSHRC用作外壳。  
 要显示图像，请添加`neofetch --kitty "$HOME/Images/tux1.png" `在文件中`.zshrc file `.
 
@@ -29,7 +29,7 @@ Neofetch permet d'afficher différentes informations systèmes en mode texte ain
 
 ## 文件经理（游侠）
 
-Ranger是控制台模式的文件管理器。  
+Ranger est un gestionnaire de fichiers en mode console.  
 它允许您使用小猫预览图像。为此，将以下两行添加到文件中`~/.config/ranger/rc.conf`:  
 `set preview_images true`  
 `set preview_images_method kitty`
