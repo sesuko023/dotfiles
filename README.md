@@ -5,7 +5,7 @@
   width="20"
   height="15"
   alt="Royaume-Uni">
- [Engish version](https://github.com/sesuko023/dotfiles/blob/main/README.md)
+ [Engish version](https://github.com/sesuko023/dotfiles/blob/main/README.en.md)
 
 # Mon theme hyprland
 
